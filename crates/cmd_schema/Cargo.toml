@@ -1,0 +1,10 @@
+[package]
+name = "memobot_cmd_schema"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[dependencies]
+twilight-interactions.workspace = true
+twilight-model.workspace = true

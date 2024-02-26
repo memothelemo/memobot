@@ -1,0 +1,18 @@
+# Build artifacts
+/target
+.DS_Store
+
+# IDE Configuration
+.vscode
+.idea
+
+# Docker itself
+.dockerignore
+Dockerfile
+
+# Git files
+.git
+.gitignore
+
+# Secret files
+.env
