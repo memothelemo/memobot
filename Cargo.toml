@@ -1,11 +1,14 @@
 [workspace]
 members = ["crates/*"]
+resolver = "2"
 
 [workspace.package]
 version = "0.1.0"
 edition = "2021"
 authors = ["memothelemo <dev@memothelemo.xyz>"]
 repository = "https://github.com/memothelemo/assistant-bot"
+license = "AGPL-2.0"
+rust-version = "1.74.0"
 
 [package]
 name = "memobot"
@@ -13,6 +16,8 @@ version.workspace = true
 edition.workspace = true
 authors.workspace = true
 repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
 
 [dependencies]
 anyhow.workspace = true
