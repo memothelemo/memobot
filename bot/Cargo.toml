@@ -1,0 +1,31 @@
+[package]
+name = "memobot"
+version.workspace = true
+description.workspace = true
+edition.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "memobot"
+path = "cli/main.rs"
+
+[dependencies]
+memobot_kernel.workspace = true
+memobot_paradise.workspace = true
+
+actix-web.workspace = true
+derive_more.workspace = true
+dotenvy.workspace = true
+error-stack.workspace = true
+futures.workspace = true
+sentry.workspace = true
+tokio.workspace = true
+tokio-util.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+
+twilight-gateway.workspace = true
+twilight-model.workspace = true

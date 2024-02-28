@@ -1,0 +1,18 @@
+[package]
+name = "memobot_env_vars"
+description.workspace = true
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+derive_more.workspace = true
+dotenvy.workspace = true
+error-stack = "0.4.1"
+
+[dev-dependencies]
+claims = "0.7.1"
+once_cell.workspace = true

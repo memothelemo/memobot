@@ -1,0 +1,26 @@
+[package]
+name = "memobot_paradise"
+version.workspace = true
+description.workspace = true
+edition.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+memobot_env_vars.workspace = true
+memobot_kernel.workspace = true
+
+actix-web.workspace = true
+chrono.workspace = true
+constant_time_eq = "0.3.0"
+derive_more.workspace = true
+error-stack.workspace = true
+futures.workspace = true
+serde.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+tryhard.workspace = true
+twilight-model.workspace = true
+twilight-mention.workspace = true

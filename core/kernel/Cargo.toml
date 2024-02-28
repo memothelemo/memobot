@@ -1,0 +1,25 @@
+[package]
+name = "memobot_kernel"
+description.workspace = true
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+memobot_env_vars = { path = "../env_vars" }
+
+cfg-if = "1.0.0"
+derive_more.workspace = true
+error-stack.workspace = true
+futures.workspace = true
+num_cpus.workspace = true
+sentry.workspace = true
+serde.workspace = true
+tokio.workspace = true
+tokio-util.workspace = true
+tracing.workspace = true
+twilight-http.workspace = true
+twilight-model.workspace = true
